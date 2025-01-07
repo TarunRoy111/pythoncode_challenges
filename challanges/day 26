@@ -1,0 +1,24 @@
+# return odd repetations of a color
+"""
+n=int(input())
+l=[]
+for i in range(n):
+    l.append(input())
+for i in l:
+    if l.count(i)%2==1:
+        print(i)
+        break
+else:
+    print("none")
+    """
+
+
+
+
+# Find the maximum value and its key
+max_value_key = max(d, key=d.get)
+max_value = d[max_value_key]
+
+print("Max value:", max_value)
+print("Corresponding key:", max_value_key)
+"""
